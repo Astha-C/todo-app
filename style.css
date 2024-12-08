@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background: url(./assests/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    padding: 4rem;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+    width: 90%;
+}
+h2{
+    color: white;
+}
+
+.section-todo{
+    margin-top: 5rem;
+    text-align: center;
+}
+.form-todo{
+    min-height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.form-todo input{
+    min-height: 100%;
+}
+.form-todo input[type="text"]{
+    width: 78%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.btn{
+    width: 20%;
+    background: rgb(44,55,63);
+    color: white;
+    font-weight: bold;
+}
+.todo-list{
+    text-align: left;
+    font-size: 1.2rem;
+    list-style-type: none;
+    max-height: 300px;
+    overflow-y:hidden;
+}
+.todo-list li{
+    margin-top: 1rem;
+    padding: 0.7rem;
+    background: #444;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-btn{
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.showMore{
+    margin: 10px auto; /* Center horizontally and add spacing */
+    padding: 10px 20px; /* Increase click area */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+    /* font-weight: bolder; */
+}
+
+.showLess{
+    margin: 10px auto; /* Center horizontally and add spacing */
+    padding: 10px 20px; /* Increase click area */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+
+
